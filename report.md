@@ -497,7 +497,7 @@ $ ./a.out 0.05 200
 図2.3 p3-noinputをdt=0.05で200ステップ実行した結果のグラフ
 ![g2.3](https://github.com/mojyack/exp-continuous/blob/main/assets/g2.3.png?raw=true)
 
-理論的には、この天体は同一円軌道を描くはずだが、このグラフではそなっていない。これは、計算精度が不足しているからだと考察できる。例えば、単純にdt=0.01として実行してみると、図2.4のようになる。
+理論的には、この天体は同一円軌道を描くはずだが、このグラフではそうなっていない。これは、計算精度が不足しているからだと考察できる。例えば、単純にdt=0.01として実行してみると、図2.4のようになる。
 
 図2.4 p3-noinputをdt=0.01で1000ステップ実行した結果のグラフ
 ![g2.4](https://github.com/mojyack/exp-continuous/blob/main/assets/g2.4.png?raw=true)
