@@ -15,5 +15,6 @@ gnuplot -e '
     set terminal pngcairo;
     set output "/tmp/output.png";
     plot "p1.txt" with linespoints title "x(1)", 
-          exp(-1);
+          cos(1);
 ' && imgview /tmp/output.png
+
